@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <!-- Tray at the bottom -->
+    <Tray x="0" y="-1" height="36">
+        <Spacer width="2" />
+        <TrayButton icon="win95-start.png" label="Start" height="24">root:1</TrayButton>
+        <Spacer width="4" />
+        <TaskList labeled="true" maxwidth="160" height="24" />
+        <Spacer width="4" />
+        <Dock height="24" />
+        <Clock format="%H:%M" height="24"></Clock>
+        <Spacer width="2" />
+    </Tray>
+
+    <!-- No virtual desktops and set background image -->
+    <Desktops width="1" height="1">
+        <Background type="scale">~/jwm-themes/assets/win95.png</Background>
+    </Desktops>
+
+    <!-- Styling -->
+
+    <WindowStyle>
+        <Font>Sans-10:bold</Font>
+        <Width>4</Width>
+        <Height>24</Height>
+        <Corner>1</Corner>
+        <Foreground>#000000</Foreground>
+        <Background>#C3C3C3</Background>
+        <Outline>#C3C3C3</Outline>
+        <Opacity>1.0</Opacity>
+        <Active>
+            <Foreground>#FFFFFF</Foreground>
+            <Background>#000082</Background>
+            <Opacity>1.0</Opacity>
+            <Outline>#C3C3C3</Outline>
+        </Active>
+    </WindowStyle>
+
+    <TrayStyle decorations="motif">
+        <Font>Sans-10:bold</Font>
+        <Foreground>#000000</Foreground>
+        <Background>#C3C3C3</Background>
+        <Opacity>1.0</Opacity>
+    </TrayStyle>
+
+    <TrayButtonStyle>
+        <Font>Sans-10:bold</Font>
+        <Foreground>#000000</Foreground>
+        <Background>#C3C3C3</Background>
+        <Opacity>1.0</Opacity>
+        <Active>
+            <Foreground>#000000</Foreground>
+            <Background>#CCCCCC</Background>
+        </Active>
+    </TrayButtonStyle>
+
+    <TaskListStyle list="all" group="false">
+        <Font>Sans-10</Font>
+        <Foreground>#000000</Foreground>
+        <Background>#C3C3C3</Background>
+        <Active>
+            <Foreground>#000000</Foreground>
+            <Background>#CCCCCC</Background>
+        </Active>
+    </TaskListStyle>
+
+    <MenuStyle decorations="motif">
+        <Font>Sans-10</Font>
+        <Foreground>#000000</Foreground>
+        <Background>#C3C3C3</Background>
+        <Active>
+            <Foreground>#000000</Foreground>
+            <Background>#CCCCCC</Background>
+        </Active>
+        <Opacity>1.0</Opacity>
+    </MenuStyle>
+
+    <PopupStyle>
+        <Font>Sans-10</Font>
+        <Foreground>#000000</Foreground>
+        <Background>#CCCCCC</Background>
+    </PopupStyle>
+
+    <ClockStyle>
+        <Font>Sans-10</Font>
+        <Foreground>#000000</Foreground>
+        <Background>#CCCCCC</Background>
+    </ClockStyle>
+
+    <ButtonClose>win95-close.png</ButtonClose>
+    <ButtonMax>win95-maximize.png</ButtonMax>
+    <ButtonMaxActive>win95-restore.png</ButtonMaxActive>
+    <ButtonMin>win95-minimize.png</ButtonMin>
+
+    <!-- Behaviour -->
+
+    <SnapMode>none</SnapMode>
+
+    <Group>
+        <Option>noshade</Option>
+        <Option>constrain</Option>
+        <Option>tiled</Option>
+    </Group>
+
+</JWM>

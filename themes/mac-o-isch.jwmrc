@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <!-- Tray at the top -->
+    <Tray x="0" y="0" autohide="off" height="24">
+        <Spacer width="2" />
+        <TrayButton icon="macos-start.png">root:1</TrayButton>
+        <Spacer width="0" />
+        <Pager labeled="false" />
+        <Dock />
+        <Spacer width="4" />
+        <Clock format="%a %b %d %H:%M"></Clock>
+        <Spacer width="4" />
+    </Tray>
+
+    <!-- Tray at the bottom -->
+    <Tray autohide="bottom" delay="500" y="-1" height="45" width="0" halign="center">
+        <Spacer width="450" />
+        <TaskList labeled="false" />
+    </Tray>
+
+    <!-- Use virtual desktops and set background image -->
+    <Desktops width="4" height="1">
+        <Background type="scale">~/jwm-themes/assets/macos.png</Background>
+    </Desktops>
+
+    <!-- Styling -->
+
+    <WindowStyle>
+        <Font>Sans-10</Font>
+        <Width>4</Width>
+        <Height>32</Height>
+        <Corner>10</Corner>
+        <Foreground>#6C6C6C</Foreground>
+        <Background>#E4E4E4:#CDCDCD</Background>
+        <Outline>#CCCCCC</Outline>
+        <Opacity>1.0</Opacity>
+        <Active>
+            <Foreground>#3C3C3C</Foreground>
+            <Background>#E4E4E4:#CDCDCD</Background>
+            <Outline>#999999</Outline>
+        </Active>
+    </WindowStyle>
+
+    <TrayStyle>
+        <Font>Sans-10</Font>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#556677</Background>
+        <Outline>#556677</Outline>
+        <Opacity>0.8</Opacity>
+    </TrayStyle>
+
+    <TaskListStyle list="all" group="true">
+        <Font>Sans-10</Font>
+        <Active>
+            <Foreground>#FFFFFF</Foreground>
+            <Background>#667788</Background>
+        </Active>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#556677</Background>
+    </TaskListStyle>
+
+    <MenuStyle decorations="motif">
+        <Font>Sans-10</Font>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#444444</Background>
+        <Active>
+            <Foreground>#FFFFFF</Foreground>
+            <Background>#0077CC</Background>
+        </Active>
+        <Opacity>0.85</Opacity>
+    </MenuStyle>
+
+    <PopupStyle>
+        <Font>Sans-10</Font>
+        <Foreground>#000000</Foreground>
+        <Background>#999999</Background>
+    </PopupStyle>
+
+    <ButtonClose>macos-close.png</ButtonClose>
+    <ButtonMax>macos-maximize.png</ButtonMax>
+    <ButtonMaxActive>macos-maximize.png</ButtonMaxActive>
+    <ButtonMin>macos-minimize.png</ButtonMin>
+
+    <!-- Behaviour -->
+
+    <SnapMode distance="10">border</SnapMode>
+
+    <Group>
+        <Option>noshade</Option>
+        <Option>tiled</Option>
+    </Group>
+
+</JWM>
