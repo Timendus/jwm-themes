@@ -59,16 +59,32 @@
     <Key key="Return">select</Key>
     <Key key="Escape">escape</Key>
 
+    <Key mask="4" key="Up">maximize</Key>
+    <Key mask="4" key="Down">restore</Key>
+    <Key mask="4" key="Left">maxleft</Key>
+    <Key mask="4" key="Right">maxright</Key>
+    <Key mask="4" key="q">close</Key>
+    <Key mask="4" key="f">fullscreen</Key>
+    <Key mask="4" key="#">desktop#</Key>
+    <Key mask="4" key="r">restart</Key>
+    <Key mask="4" key="space">exec:xfce4-appfinder</Key>
+
+    <Key mask="4C" key="Right">rdesktop</Key>
+    <Key mask="4C" key="Left">ldesktop</Key>
+    <Key mask="4C" key="Up">udesktop</Key>
+    <Key mask="4C" key="Down">ddesktop</Key>
+    <Key mask="4CS" key="Right">sendr</Key>
+    <Key mask="4CS" key="Left">sendl</Key>
+    <Key mask="4CS" key="Up">sendu</Key>
+    <Key mask="4CS" key="Down">sendd</Key>
+
     <Key mask="A" key="Tab">nextstacked</Key>
+    <Key mask="SA" key="Tab">prevstacked</Key>
     <Key mask="A" key="F4">close</Key>
     <Key mask="A" key="#">desktop#</Key>
     <Key mask="A" key="F1">root:1</Key>
     <Key mask="A" key="F2">window</Key>
     <Key mask="A" key="F10">maximize</Key>
-    <Key mask="A" key="Right">rdesktop</Key>
-    <Key mask="A" key="Left">ldesktop</Key>
-    <Key mask="A" key="Up">udesktop</Key>
-    <Key mask="A" key="Down">ddesktop</Key>
 
     <!-- Mouse bindings -->
     <Mouse context="root" button="4">ldesktop</Mouse>
