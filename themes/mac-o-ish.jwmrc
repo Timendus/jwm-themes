@@ -21,7 +21,7 @@
 
     <!-- Use virtual desktops and set background image -->
     <Desktops width="4" height="1">
-        <Background type="scale">~/jwm-themes/assets/macos.png</Background>
+        <Background type="scale">$HOME/jwm-themes/assets/macos.png</Background>
     </Desktops>
 
     <!-- Styling -->

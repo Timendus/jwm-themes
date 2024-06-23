@@ -17,8 +17,8 @@
     </RootMenu>
 
     <!-- Select the theme you want -->
-    <Include>./themes/mac-o-ish.jwmrc</Include>
-    <!-- <Include>./themes/win95-esque.jwmrc</Include> -->
+    <Include>$HOME/jwm-themes/themes/mac-o-ish.jwmrc</Include>
+    <!-- <Include>$HOME/jwm-themes/themes/win95-esque.jwmrc</Include> -->
 
     <!-- Where we can find the right icons -->
     <IconPath>/usr/local/share/icons/Tango/scalable/actions</IconPath>
@@ -27,7 +27,7 @@
     <IconPath>/usr/local/share/icons/Tango/scalable/status</IconPath>
     <IconPath>/usr/local/share/icons/Tango/scalable/mimetypes</IconPath>
     <IconPath>/usr/local/share/jwm</IconPath>
-    <IconPath>~/jwm-themes/assets</IconPath>
+    <IconPath>$HOME/jwm-themes/assets</IconPath>
 
     <!-- Double click speed (in milliseconds) -->
     <DoubleClickSpeed>400</DoubleClickSpeed>
