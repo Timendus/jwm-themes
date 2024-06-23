@@ -3,23 +3,33 @@
 A few simple themes for [Joe's Window
 Manager](https://joewing.net/projects/jwm/)!
 
-Not that I daily drive these, just having a bit of fun. But I am going to run
-them on an old laptop of mine 🙂
+Not that I daily drive these, just having a bit of fun. But I do run them on an
+old laptop 🙂
+
+## Themes
+
+### Win95-esque
+
+[![The Win95-esque theme](./screenshots/win95-esque.png)](./screenshots/win95-esque.png)
+
+## Mac-O-ish
+
+[![The Mac-O-ish theme](./screenshots/mac-o-ish.png)](./screenshots/mac-o-ish.png)
 
 ## Installation
 
 These themes assume you're running JWM (obviously) and have
 [`xdgmenumaker`](https://github.com/gapan/xdgmenumaker) installed to put all
-your applications in the menu. I could just install it through my package
-manager. Maybe you can too. The "Run" menu item uses `xfce4-appfinder`, which
-you may or may not have. Replace with your own graphical application runner of
-choice.
+your applications in the menu. Some package managers have it. Otherwise it's
+just a `git clone` / `make` / `make install` away. The "Run" menu item uses
+`xfce4-appfinder`, which you may or may not have. Replace with your own
+graphical application runner of choice.
 
 Then:
 
 ```bash
 cd ~
-git clone git@github.com:Timendus/jwm-themes.git
+git clone https://github.com/Timendus/jwm-themes.git
 ```
 
 And then either modify your own `~/.jwmrc` file to hold the contents of
@@ -29,8 +39,9 @@ And then either modify your own `~/.jwmrc` file to hold the contents of
 cp ~/jwm-themes/.jwmrc ~/
 ```
 
-If you clone this repo somewhere other than your home directory, make sure you
-fix the icon and background paths in the `.jwmrc` files.
+If you clone this repo somewhere other than your home directory, do a
+find/replace through this repository for `$HOME/jwm-themes` and make sure you
+fix all the paths.
 
 ## Notes
 
