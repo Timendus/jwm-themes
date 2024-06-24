@@ -10,11 +10,22 @@ old laptop 🙂
 
 ### Win95-esque
 
+Inspired by my youth. Needs no further introduction.
+
 [![The Win95-esque theme](./screenshots/win95-esque.png)](./screenshots/win95-esque.png)
 
 ## Mac-O-ish
 
+Sort-of-kinda looks a bit like an older MacOS, maybe? 😄
+
 [![The Mac-O-ish theme](./screenshots/mac-o-ish.png)](./screenshots/mac-o-ish.png)
+
+### Slick
+
+A very minimal theme that I came up with, which maximizes screen real estate for
+your actual applications and just tries not to distract.
+
+[![The Slick theme](./screenshots/slick.png)](./screenshots/slick.png)
 
 ## Installation
 

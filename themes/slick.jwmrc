@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <!-- Tray at the top -->
+    <Tray x="0" y="0" autohide="top" height="24">
+        <Spacer width="2" />
+        <TrayButton icon="slick-start.svg" label="Menu">root:1</TrayButton>
+	<Spacer width="15" />
+	<TaskList labeled="false" />
+        <Spacer width="0" />
+        <Dock />
+        <Spacer width="4" />
+        <Clock format="%a %d %b - %H:%M"></Clock>
+	<Spacer width="4" />
+	<Pager labeled="false" />
+    </Tray>
+
+    <!-- Use virtual desktops and set background image -->
+    <Desktops width="4" height="1">
+        <Background type="scale">$HOME/jwm-themes/assets/slick.png</Background>
+    </Desktops>
+
+    <!-- Styling -->
+
+    <WindowStyle>
+        <Font>Sans-10</Font>
+        <Width>3</Width>
+        <Height>24</Height>
+        <Corner>10</Corner>
+        <Foreground>#DDDDDD</Foreground>
+        <Background>#222222</Background>
+        <Outline>#111111</Outline>
+        <Opacity>1.0</Opacity>
+        <Active>
+            <Foreground>#EEEEEE</Foreground>
+            <Background>#000066</Background>
+            <Outline>#000033</Outline>
+        </Active>
+    </WindowStyle>
+
+    <TrayStyle>
+        <Font>Sans-10</Font>
+        <Foreground>#EEEEEE</Foreground>
+        <Background>#000000</Background>
+        <Outline>#000000</Outline>
+        <Opacity>1.0</Opacity>
+    </TrayStyle>
+
+    <TaskListStyle list="all" group="true">
+        <Font>Sans-10</Font>
+        <Active>
+            <Foreground>#EEEEEE</Foreground>
+            <Background>#333333</Background>
+        </Active>
+        <Foreground>#EEEEEE</Foreground>
+        <Background>#000000</Background>
+    </TaskListStyle>
+
+    <MenuStyle decorations="motif">
+        <Font>Sans-10</Font>
+        <Foreground>#DDDDDD</Foreground>
+        <Background>#000000</Background>
+        <Active>
+            <Foreground>#EEEEEE</Foreground>
+            <Background>#333333</Background>
+        </Active>
+        <Opacity>1.0</Opacity>
+    </MenuStyle>
+
+    <PopupStyle>
+        <Font>Sans-10</Font>
+        <Foreground>#111111</Foreground>
+        <Background>#BBBBBB</Background>
+    </PopupStyle>
+
+    <PagerStyle>
+	<Background>#333333</Background>
+	<Foreground>#666666</Foreground>
+	<Active>
+	    <Background>#555555</Background>
+	    <Foreground>#888888</Foreground>
+	</Active>
+    </PagerStyle>
+
+    <ButtonClose>slick-close.png</ButtonClose>
+    <ButtonMax>slick-maximize.png</ButtonMax>
+    <ButtonMaxActive>slick-maximize.png</ButtonMaxActive>
+    <ButtonMin>slick-minimize.png</ButtonMin>
+
+    <!-- Behaviour -->
+
+    <SnapMode distance="10">border</SnapMode>
+
+    <Group>
+        <Option>noshade</Option>
+        <Option>tiled</Option>
+    </Group>
+
+</JWM>

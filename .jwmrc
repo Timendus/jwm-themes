@@ -19,6 +19,7 @@
     <!-- Select the theme you want -->
     <Include>$HOME/jwm-themes/themes/mac-o-ish.jwmrc</Include>
     <!-- <Include>$HOME/jwm-themes/themes/win95-esque.jwmrc</Include> -->
+    <!-- <Include>$HOME/jwm-themes/themes/slick.jwmrc</Include> -->
 
     <!-- Where we can find the right icons -->
     <IconPath>/usr/local/share/icons/Tango/scalable/actions</IconPath>
